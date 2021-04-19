@@ -1,0 +1,42 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "postedBy": "admin",
+      "topic": "Attack on Titan",
+      "date": "2021-04-07T11:04:14.613Z",
+      "message": "Eren Yeager keeps moving forwad!",
+      "checkRights": false
+    },
+    {
+      "postedBy": "admin",
+      "topic": "Dota2",
+      "date": "2021-04-07T12:00:36.078Z",
+      "message": "Don not play this game!",
+      "checkRights": false,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "postedBy": "Kiyotaka23",
+      "topic": "Users Post",
+      "date": "2021-04-07T15:32:40.351Z",
+      "message": "Hello World!",
+      "checkRights": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin"
+    },
+    {
+      "username": "Kiyotaka23",
+      "email": "qwe",
+      "password": "qwe",
+      "id": 2
+    }
+  ]
+}

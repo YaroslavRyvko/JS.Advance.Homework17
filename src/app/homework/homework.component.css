@@ -1,0 +1,44 @@
+nav {
+    height: 76px;
+    color: white;
+    padding: 0px 20px
+  }
+  
+  .container {
+    margin-top: 14px;
+    min-height: 130px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 3px;
+  }
+  
+  .info {
+    width: 50%;
+    padding-left: 12px;
+  }
+  
+  .fw-bold {
+    color: rgb(129, 129, 129);
+  }
+  
+  .date {
+    color: rgb(129, 129, 129);
+    padding-top: 53px;
+    padding-right: 10px;
+    position: relative;
+  }
+  
+  .date::before {
+    position: absolute;
+    background-size: cover;
+    top: 53px;
+    left: -25px;
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url('https://t3.ftcdn.net/jpg/01/13/71/60/240_F_113716067_4whzGqglgcc0fmz8UsI8rnlnJW8zHbDC.jpg');
+  }
+  
+  .date .btn-group {
+      margin: 24px 0px;
+  }
+  
